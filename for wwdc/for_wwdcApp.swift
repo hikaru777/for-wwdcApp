@@ -11,7 +11,7 @@ import SwiftUI
 struct for_wwdcApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WelcomView()
         }
     }
 }

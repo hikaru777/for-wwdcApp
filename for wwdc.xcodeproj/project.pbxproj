@@ -11,6 +11,10 @@
 		5DA19AEB2B7688D9003DA5D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA19AEA2B7688D9003DA5D3 /* ContentView.swift */; };
 		5DA19AED2B7688DA003DA5D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DA19AEC2B7688DA003DA5D3 /* Assets.xcassets */; };
 		5DA19AF02B7688DA003DA5D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DA19AEF2B7688DA003DA5D3 /* Preview Assets.xcassets */; };
+		5DA19AF72B76A1B1003DA5D3 /* Sun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA19AF62B76A1B1003DA5D3 /* Sun.swift */; };
+		5DA19AF92B76AC82003DA5D3 /* TextAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA19AF82B76AC82003DA5D3 /* TextAnimation.swift */; };
+		5DA19AFD2B77DD32003DA5D3 /* selectPathogen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA19AFC2B77DD32003DA5D3 /* selectPathogen.swift */; };
+		5DA19AFF2B77E063003DA5D3 /* WelcomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA19AFE2B77E063003DA5D3 /* WelcomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		5DA19AEA2B7688D9003DA5D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5DA19AEC2B7688DA003DA5D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DA19AEF2B7688DA003DA5D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5DA19AF62B76A1B1003DA5D3 /* Sun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sun.swift; sourceTree = "<group>"; };
+		5DA19AF82B76AC82003DA5D3 /* TextAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAnimation.swift; sourceTree = "<group>"; };
+		5DA19AFC2B77DD32003DA5D3 /* selectPathogen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = selectPathogen.swift; sourceTree = "<group>"; };
+		5DA19AFE2B77E063003DA5D3 /* WelcomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +61,12 @@
 			children = (
 				5DA19AE82B7688D9003DA5D3 /* for_wwdcApp.swift */,
 				5DA19AEA2B7688D9003DA5D3 /* ContentView.swift */,
+				5DA19AFE2B77E063003DA5D3 /* WelcomView.swift */,
+				5DA19AFC2B77DD32003DA5D3 /* selectPathogen.swift */,
 				5DA19AEC2B7688DA003DA5D3 /* Assets.xcassets */,
 				5DA19AEE2B7688DA003DA5D3 /* Preview Content */,
+				5DA19AF62B76A1B1003DA5D3 /* Sun.swift */,
+				5DA19AF82B76AC82003DA5D3 /* TextAnimation.swift */,
 			);
 			path = "for wwdc";
 			sourceTree = "<group>";
@@ -139,6 +151,10 @@
 			files = (
 				5DA19AEB2B7688D9003DA5D3 /* ContentView.swift in Sources */,
 				5DA19AE92B7688D9003DA5D3 /* for_wwdcApp.swift in Sources */,
+				5DA19AFD2B77DD32003DA5D3 /* selectPathogen.swift in Sources */,
+				5DA19AF72B76A1B1003DA5D3 /* Sun.swift in Sources */,
+				5DA19AF92B76AC82003DA5D3 /* TextAnimation.swift in Sources */,
+				5DA19AFF2B77E063003DA5D3 /* WelcomView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,9 +303,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.swift.tech.Hikaru.Honda.for-wwdc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -316,9 +334,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.swift.tech.Hikaru.Honda.for-wwdc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
